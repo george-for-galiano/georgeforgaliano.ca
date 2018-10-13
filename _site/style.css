@@ -178,8 +178,12 @@ header .intro-text .skills {
     border: 0;
 }
 
-section {
-    padding: 100px 0;
+li {
+    margin-bottom: 10px;
+}
+
+#letter {
+    padding-top: 80px;
 }
 
 section h2 {
@@ -465,6 +469,19 @@ footer .footer-below {
 
 .hero-banner {
     padding-top: 130px;
+}
+
+.george {
+    background-image: url('img/profile.jpg');
+    background-size: cover;
+    border-radius: 100%;
+    width: 265px;
+    height: 265px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: inline-block;
+    margin: auto;
 }
 
 .big-letter {

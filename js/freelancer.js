@@ -8,8 +8,12 @@
 $(function() {
     $('.page-scroll a').bind('click', function(event) {
         var $anchor = $(this);
+        var href = $anchor.attr('href')
+        if(href.indexOf('/') === 0) {
+            href = href.slice(1)
+        }
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
+            scrollTop: $(href).offset().top-40
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
