@@ -73,7 +73,6 @@ hr.cert-primary {
 
 hr.cert-primary:after {
     color: #{{ site.color.secondary }};
-    background-color: #fff;
 }
 
 .img-centered {
